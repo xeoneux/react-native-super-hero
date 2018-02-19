@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SNAPSHOT: All functionality should match prev snapshot 1`] = `
+<View
+  style={
+    Object {
+      "opacity": 1,
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "red",
+        "height": 1000,
+        "left": 0,
+        "opacity": 0.4,
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+        "zIndex": 1,
+      }
+    }
+  />
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+        "zIndex": 2,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      React Native Hero
+    </Text>
+  </View>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "https://placeimg.com/640/480/any",
+      }
+    }
+    style={
+      Object {
+        "height": 1000,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;

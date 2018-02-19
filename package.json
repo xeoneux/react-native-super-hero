@@ -1,0 +1,76 @@
+{
+  "name": "react-native-super-hero",
+  "version": "0.3.1",
+  "description": "🤘 A super duper easy hero unit react-native component with support for dynamic image, dynamic sizing, color overlays, and more",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeoneux/react-native-super-hero.git"
+  },
+  "keywords": [
+    "react-native",
+		"hero",
+		"banners",
+		"dynamic",
+		"components"
+  ],
+  "author": {
+    "name": "Aayush Kapoor",
+    "email": "xeoneux@icloud.com",
+    "url": "http://www.aayushkapoor.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xeoneux/react-native-super-hero/issues"
+  },
+  "homepage": "https://github.com/xeoneux/react-native-super-hero#README",
+  "dependencies": {
+    "react-native-super-injector": "^0.1.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.1.2",
+    "@types/react": "^16.0.38",
+    "@types/react-native": "^0.52.12",
+    "@types/react-test-renderer": "^16.0.1",
+    "babel-jest": "^22.2.2",
+    "babel-preset-react-native": "^4.0.0",
+    "jest": "^22.3.0",
+    "react": "^16.2.0",
+    "react-native": "^0.53.0",
+    "react-test-renderer": "^16.2.0",
+    "ts-jest": "^22.0.4",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.7.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest",
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "globals": {
+      "ts-jest": {
+        "useBabelrc": true
+      }
+    }
+  }
+}
